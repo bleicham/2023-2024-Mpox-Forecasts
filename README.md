@@ -10,7 +10,6 @@ For the Spring 2024 wave in the US, we utilized the same modeling techniques, ca
 
 Our website [9] is also updated weekly with the most recent ARIMA and ensemble sub-epidemic forecasts for the United States. 
 
-
 # Additional Resources 
 [1] Taylor SJ, Letham B. Forecasting at scale. The American Statistician. 2018 Jan 2;72(1):37-45.
 
@@ -30,4 +29,5 @@ Our website [9] is also updated weekly with the most recent ARIMA and ensemble s
 
 [9] https://publichealth.gsu.edu/research-outreach/monkeypox-forecasting-center/
 
+#
 Last Updated: 4/5/2024 
