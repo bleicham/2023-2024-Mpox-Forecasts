@@ -1,15 +1,17 @@
-Real-time forecasting of two waves of Mpox (Summer 2023 and Spring 2024) on different spatial scales 
+# Real-time forecasting of two waves of Mpox (Summer 2023 and Spring 2024) on different spatial scales 
 
 This repository contains forecasts for the Summer 2023 wave of the mpox epidemic in the United States, Brazil, China, Colombia, England, Japan, Mexico, Peru, South Korea, Thailand, and the World and for the Spring 2024 wave in the United States. 
 
+# Summer 2023 Wave 
 For the Summer 2023 forecasts, we primarily employ three modeling techniques: (1) Facebook's Prophet model [1], (2) spatial-wave framework [2], and (3) the ensemble n-sub-epidemic framework [3] to produce 4-week out forecasts. We calibrated each model with the most recent ten weeks of data, and the data associated with each folder is the last week of data used as part of the calibration period. We also forecasted the effective reproduction number (Rt) [4] for each area, using 10- and 20-week calibration periods and forecasting four weeks at a time. Data for the US-CDC was obtained from [5] and the remaining countries from [6]. 
 
+# Spring 2024 Wave
 For the Spring 2024 wave in the US, we utilized the same modeling techniques, calibration periods, and forecasting horizons as employed during the Summer 2023 wave but now include auto-regressive integrated moving average models (ARIMA), simple linear regression (SLR), and generalized additive models (GAM). Additional details on the model specification and application can be found in [7]. Data was obtained weekly from the Centers for Disease Control and Prevention Nationally Notifiable Infectious Diseases and Conditions Weekly Tables [8]. 
 
 Our website [9] is also updated weekly with the most recent ARIMA and ensemble sub-epidemic forecasts for the United States. 
 
 
-
+# Additional Resources 
 [1] Taylor SJ, Letham B. Forecasting at scale. The American Statistician. 2018 Jan 2;72(1):37-45.
 
 [2] https://github.com/gchowell/spatial_wave_subepidemic_framework
